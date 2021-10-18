@@ -10,6 +10,12 @@ nav{
 .eka{
     background-color: chartreuse;
 }
+section{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .toka{
     background-color: coral;
 }

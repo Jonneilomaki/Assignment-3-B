@@ -1,0 +1,21 @@
+header {
+    background-color: rgb(88, 133, 185);
+    }
+
+nav{
+    background-color: brown;
+    font-size: xx-large;
+}
+
+.eka{
+    background-color: chartreuse;
+}
+.toka{
+    background-color: coral;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }  

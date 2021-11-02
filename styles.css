@@ -1,16 +1,16 @@
 body {
-background-color: red;
+background-color: rgb(255, 123, 0);
 color:white;
 }
 h1 {
-font-size: 20px;
+font-size: 50px;
 border-style: double;
 padding: 40px;
-margin-right: 150px;
+text-align: center;
 }
 
 h2 {
-font-size: 12px;
+font-size: 30px;
 color: green;
 border-style: solid;
 padding: 50px;
@@ -21,17 +21,78 @@ margin-right: 150px;
 p {
 border-style: solid;
 border-radius: 25px;
-padding: 20px;
-margin-right: 20px;
-background-color: blue;
+background-color: rgb(97, 97, 136);
+padding: 5px;
 }
 
 a {
 font-size: 30px;
+color: rgb(0, 255, 255);
 }
 
+a:hover {
+    color: #ff0000;
+  }
+
+.main {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background: rgb(190, 174, 149);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+}
+
+.vertical {
+    float: left;
+    width: 20%;
+    height: max-content;
+    background: rgb(57, 78, 168);
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+.otsikko {
+        background-color: rgb(57, 78, 168);
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+}
+section {
+    float: left;
+    padding: 20px;
+    width: 76.856%;
+    background-color: #b66785;    
+  }
 
 
+  .para{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    border-style: hidden;
+    border-radius: 0px;
+    padding: 5px;
+    margin-right: 0px;
+    background-color: #b66785;
+  }
+
+  footer {
+    float: left;
+    width: 100%;
+    background: rgb(190, 174, 149);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 33px;
+  }
 
 
 
